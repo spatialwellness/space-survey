@@ -197,7 +197,26 @@ export const sections: Section[] = [
         scaleLabels: { low: "Nooit", high: "Bijna altijd" },
       },
       {
-        id: "q16_open",
+        id: "q16",
+        text: "Hoe graag kom je naar kantoor (vanwege de fysieke werkplek)?",
+        note: "(Onafhankelijk van je collega's of het werk zelf - puur de ruimte)",
+        type: "scale",
+        scaleLabels: { low: "Zeer ongaarne", high: "Zeer graag" },
+      },
+      {
+        id: "q17",
+        text: "Hoe goed ondersteunt de werkplek jou om gefocust en productief te zijn?",
+        type: "scale",
+        scaleLabels: { low: "Helemaal niet", high: "Heel erg goed" },
+      },
+      {
+        id: "q18",
+        text: "Hoe zou je je algehele gevoel over je werkplek omschrijven?",
+        type: "scale",
+        scaleLabels: { low: "Zeer onprettig", high: "Zeer prettig" },
+      },
+      {
+        id: "q19_open",
         text: "Is er iets aan je werkplek dat je helpt om goed te werken?",
         type: "textarea",
         optional: true,
@@ -205,7 +224,7 @@ export const sections: Section[] = [
           "Je mag zoveel of zo weinig schrijven als je wilt. Dit veld is optioneel.",
       },
       {
-        id: "q17_open",
+        id: "q20_open",
         text: "Is er iets aan je werkplek dat het moeilijker maakt om te werken?",
         type: "textarea",
         optional: true,
@@ -213,7 +232,7 @@ export const sections: Section[] = [
           "Je mag zoveel of zo weinig schrijven als je wilt. Dit veld is optioneel.",
       },
       {
-        id: "q18_open",
+        id: "q21_open",
         text: "Is er iets over hoe jij je werkplek ervaart waar nog nooit naar gevraagd is, maar dat je wel belangrijk vindt?",
         type: "textarea",
         optional: true,
