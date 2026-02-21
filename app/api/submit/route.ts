@@ -44,8 +44,9 @@ export async function POST(request: NextRequest) {
             Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
           },
           body: JSON.stringify({
-            from: "Space Survey <hello@spatial-wellness.com>",
-            to: "hello@spatial-wellness.com",
+            from: "Space Survey <onboarding@resend.dev>",
+            to: "eliannealblas@gmail.com",
+            replyTo: "hello@spatial-wellness.com",
             subject: `New survey response (${new Date().toLocaleDateString("nl-NL")})`,
             text: `New anonymous survey response\n\nSubmitted: ${payload.submittedAt}\n\n${answerLines}`,
           }),
